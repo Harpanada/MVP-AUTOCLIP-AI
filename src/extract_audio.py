@@ -19,6 +19,3 @@ def Extract(input_path) ->str:
     
 
 
-extracted="E:\MVP-AUTOCLIP-AI\data\input\Borong Bitcoin Episode 33 - Februari 2026 - Timothy Ronald (1080p, h264).mp4"
-extracted=Extract(extracted)
-Transcribe(extracted,"E:/MVP-AUTOCLIP-AI/data/transcripts/tarnscript.json")
