@@ -20,9 +20,9 @@ def group_ideaof(segment):
 
         its_enough  = dur >= 30
         idea_end= text.endswith(".") or text.endswith('?') or text.endswith('!')
-        its_to_loong= dur >= 120
+        its_to_loong= dur >= 60
 
-        if its_enough and idea_end or its_to_loong:
+        if  its_enough  and idea_end or its_to_loong:
             clips.append(currrent)
             currrent = []
             dur = 0

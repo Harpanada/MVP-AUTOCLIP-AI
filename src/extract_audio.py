@@ -1,10 +1,10 @@
 import subprocess
 from pathlib import Path
-from transcribe import Transcribe
 
-def Extract(input_path) ->str:
+
+def Extract(input_path,output_path) ->str:
     # input_path = Path(input_path)
-    output_path="E:/MVP-AUTOCLIP-AI/data/audio/extracted_audio.wav"#Di deployment  harus diubah
+    
 
     subprocess.run([   
         "ffmpeg",
