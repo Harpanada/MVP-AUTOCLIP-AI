@@ -2,8 +2,7 @@
 KEYWORDS = ["intinya", "jadi", "kesimpulannya", 
             "yang penting", "tipsnya","jangan",
             "harusnya","biasanya", "tips",
-            "pelajaranya","manfaat","ketika",
-            "intinya","oke"]
+            "pelajaranya","manfaat","ketika","oke"]
 
 def score_punctuation(word):
     score=0
